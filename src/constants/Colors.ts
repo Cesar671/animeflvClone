@@ -4,16 +4,23 @@ interface color {
     item:string
 }
 
+interface TypeColor{
+    [key:string]:string,
+    anime:string,
+    episodio:string,
+    pelicula:string,
+}
+
 export const colorlight:color = {
     header: "#252a2c",
-    body: "#9da1a4",
+    body: "#ccc",
     item: "#01bcf3"
 }
 
-export const TypesColor = {
+export const TypesColor:TypeColor = {
     anime: "#01bcf3",
     episodio: "orange",
-    movie: "red"
+    pelicula: "red"
 }
 
 

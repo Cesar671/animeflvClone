@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { colorlight } from "../constants/Colors";
 
 export const MainPageStyled = styled.div`
     display: flex;
@@ -8,5 +9,5 @@ export const MainPageStyled = styled.div`
 export const BodyStyled = styled.div`
     display: flex;
     justify-content: center;
-
+    background-color: ${ colorlight.body };
 `
