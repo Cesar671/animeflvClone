@@ -6,6 +6,14 @@ export interface Emision{
     type:Types
 }
 
+export interface UltimosCapitulos{
+    image:string
+    type:Types
+    name:string
+    id:number
+    capitulo:number
+}
+
 export const getEmision = ():Emision[] => {
 
     return [
@@ -38,5 +46,53 @@ export const getEmision = ():Emision[] => {
             url: "#",
             type: Types.Anime
         }
+    ]
+}
+
+export const getCapitulos = ():UltimosCapitulos[] => {
+    return [
+        {
+            image:"../muestra.webp",
+            type:Types.Episodio,
+            name:"One Piece",
+            id: 1,
+            capitulo: 1000
+        },{
+            image:"../muestra.webp",
+            type:Types.Episodio,
+            name:"Naruto",
+            id: 1,
+            capitulo: 100
+        },{
+            image:"../muestra.webp",
+            type:Types.Episodio,
+            name:"One Piece",
+            id: 1,
+            capitulo: 1000
+        },{
+            image:"../muestra.webp",
+            type:Types.Anime,
+            name:"One Piece",
+            id: 1,
+            capitulo: 1000
+        },{
+            image:"../muestra.webp",
+            type:Types.Anime,
+            name:"One Piece",
+            id: 1,
+            capitulo: 1000
+        },{
+            image:"../muestra.webp",
+            type:Types.Anime,
+            name:"One Piece",
+            id: 1,
+            capitulo: 1000
+        },{
+            image:"../muestra.webp",
+            type:Types.Anime,
+            name:"One Piece",
+            id: 1,
+            capitulo: 1000
+        },
     ]
 }
