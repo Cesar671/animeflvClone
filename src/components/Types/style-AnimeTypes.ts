@@ -8,6 +8,8 @@ export const BoxType = styled.div`
     padding-left: 10px;
     padding-right: 10px;
     font-weight: 10px;
-    height: fit-content;
+    height: 17px;
     width: fit-content;
+    display: flex;
+    align-items: center;
 `

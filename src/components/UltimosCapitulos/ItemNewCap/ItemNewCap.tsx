@@ -14,7 +14,7 @@ const ItemNewCap = ({image, type, name, id, capitulo}:UltimosCapitulos) => {
                     <IconPlay icon={faCirclePlay}/>
                 </div>
                 <div>
-                    <AnimeTypes type={ type }/>
+                    <AnimeTypes type={ type } capitulo={ (capitulo) ? capitulo:1 }/>
                     <NameItem>{ name }</NameItem>
                 </div>
                 

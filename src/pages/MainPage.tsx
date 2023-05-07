@@ -1,8 +1,7 @@
 import React from 'react'
-import { MainPageStyled,BodyStyled } from '../styles/MainPageStyle'
+import { MainPageStyled,BodyStyled, Title, TitleHeaderMainPage, GlobeHoy } from '../styles/MainPageStyle'
 import AnimesEnEmision from '../components/AnimesEnEmision.tsx/AnimesEnEmision'
-import ItemNewCap from '../components/UltimosCapitulos/ItemNewCap/ItemNewCap'
-import { Types } from '../constants/Types'
+import UltimosCapitulos from '../components/UltimosCapitulos/UltimosCapitulos'
 const MainPage = () => {
   return (
     <MainPageStyled>
@@ -11,7 +10,11 @@ const MainPage = () => {
             <AnimesEnEmision />
             <div> 
                 <div>
-                    <ItemNewCap id={ 1 } name='onePiece' image='../muestra.webp' type={ Types.Episodio } capitulo={1000}/>
+                    <TitleHeaderMainPage>
+                        <Title> Últimos Capitulos</Title>
+                        <GlobeHoy>HOY</GlobeHoy>
+                    </TitleHeaderMainPage>
+                    <UltimosCapitulos />
                 </div>     
                 <div>
                     ultimos animes agregados

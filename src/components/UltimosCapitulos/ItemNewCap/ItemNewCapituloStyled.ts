@@ -11,8 +11,13 @@ export const IconPlay = styled(FontAwesomeIcon)`
 `
 
 export const CapituloContainer = styled.div`
-    width: 197.5px;
-    height: 138.25px;
+    min-width: 197.5px;
+    min-height: 138.25px;
+    max-width: 197.5px;;
+    max-height: 138.25px;
+    position: relative;
+    width: auto;
+    height: auto;
     border-radius: 5px;
     object-fit: cover;
     overflow: hidden;
@@ -25,7 +30,7 @@ export const CapituloContainer = styled.div`
         }
 
         a div div ${ IconPlay }{
-            transform: translateX(100px);
+            transform: translateX(50px);
             opacity: 0;
         }
     }
@@ -34,18 +39,26 @@ export const CapituloContainer = styled.div`
         display: flex;
         flex-direction: column;
     }
+    @media(max-width:777px){
+        max-height: 100%;
+        max-width: 100%;
+    }
 `
 
 export const ImageCapitulo = styled.img`
-    width: 197.5px;
-    height: 138.25px;
+    width: auto;
+    height: auto;
     transition: all 0.1s ease-in-out;
 `
 export const DataContainer = styled.div`
+    top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
     z-index: 10;
     position: absolute;
-    width: 197.5px;
-    height: 138.25px;
+    min-width: 197.5px;
+    min-height: 138.25px;
     display: flex;
     flex-direction: column;
     background: rgb(131,58,180);
