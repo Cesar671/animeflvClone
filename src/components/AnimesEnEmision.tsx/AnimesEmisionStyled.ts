@@ -39,13 +39,13 @@ export const IconPlayEmision = styled(FontAwesomeIcon)`
 `
 
 export const AsideStyled = styled.aside`
-    width: 320px;
+    width: 280px;
     display: grid;
-    gap: 10px;
+    gap: 20px;
     padding: 10px;
     background-color: white;
     height: fit-content;
-    min-width: 320px;
+    min-width: 280px;
     @media (max-width:776px){
         display: none;
     }

@@ -12,8 +12,8 @@ interface TypeColor{
 }
 
 export const colorlight:color = {
-    header: "#252a2c",
-    body: "#ccc",
+    header: "#3b4248",
+    body: "white",
     item: "#01bcf3"
 }
 

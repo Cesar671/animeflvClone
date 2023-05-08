@@ -25,7 +25,7 @@ const AnimesEnEmision = () => {
     <br />
     <AsideStyled>
         <AsideHeaderStyled>
-            <label><strong>ANIMES EN EMISIÓN</strong></label>
+            <label style={{marginBottom:"30px"}}><strong>ANIMES EN EMISIÓN</strong></label>
             <IconPlayHeader icon={ faPlay }/>
         </AsideHeaderStyled>
           { (emisionAnime.isLoad) ?  

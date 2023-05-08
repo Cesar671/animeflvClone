@@ -1,1 +1,1 @@
-export const urlLogo = "https://www3.animeflv.net//assets/animeflv/img/logo.png?v=2.3"
+export const urlLogo = "../resources/logos/logo.png"

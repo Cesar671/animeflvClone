@@ -33,7 +33,7 @@ export const GlobeHoy = styled.div`
     color: white;
     padding: 5px 20px 5px 20px;
     border-radius: 30px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     margin: 20px;
 
