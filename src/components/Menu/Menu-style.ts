@@ -24,7 +24,7 @@ export const MenuContainer = styled.nav`
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgba(255,255,255, 0.5);
+    color: rgba(255,255,255);
     font-weight: 700;
     white-space: nowrap;
     li{
@@ -50,9 +50,28 @@ export const MenuCenter = styled.div`
 
 export const ListMenu = styled.ul`
     display: flex;
-    gap: 30px;
+    gap: 20px;
     align-items: center;
     @media(max-width: 1020px){
         display: none;
     }
+`
+
+export const ButtonIn = styled.a`
+    opacity: 0.5;
+    text-decoration: none;
+    :hover{
+        opacity: 1;
+    }
+`
+
+export const ButtonOut = styled.button`
+    :hover{
+        opacity: 0.5;
+    }
+`
+export const FlexJustified = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `

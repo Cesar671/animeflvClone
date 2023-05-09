@@ -14,6 +14,7 @@ export const BodyStyled = styled.div`
 
 export const Title = styled.h1`
     font-weight: 100;
+    font-size: 25px;
 `
 
 export const TitleHeaderMainPage = styled.div`

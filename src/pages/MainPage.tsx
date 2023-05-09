@@ -15,7 +15,7 @@ const MainPage = () => {
             <div> 
                 <div>
                     <TitleHeaderMainPage>
-                        <Title> Últimos Capitulos</Title>
+                        <Title> Últimos episodios</Title>
                         <GlobeHoy>HOY</GlobeHoy>
                     </TitleHeaderMainPage>
                     <UltimosCapitulos />
