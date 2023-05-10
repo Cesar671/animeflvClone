@@ -1,8 +1,9 @@
 import React from 'react'
 import { MainPageStyled,BodyStyled, Title, TitleHeaderMainPage, GlobeHoy } from '../styles/MainPageStyle'
-import AnimesEnEmision from '../components/AnimesEnEmision.tsx/AnimesEnEmision'
 import UltimosCapitulos from '../components/UltimosCapitulos/UltimosCapitulos'
 import Menu from '../components/Menu/Menu'
+import AnimesEnEmision from '../components/AnimesEnEmision/AnimesEnEmision'
+import SeccionEstrenos from '../components/EstrenosAnime/SeccionEstrenos'
 const MainPage = () => {
   return (
     <MainPageStyled>
@@ -21,7 +22,7 @@ const MainPage = () => {
                     <UltimosCapitulos />
                 </div>     
                 <div>
-                    ultimos animes agregados
+                    <SeccionEstrenos />
                 </div>
             </div>
         </BodyStyled>

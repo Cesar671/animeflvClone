@@ -14,6 +14,55 @@ export interface UltimosCapitulos{
     capitulo:number
 }
 
+export interface EstrenosAnime{
+    image:string
+    name:string
+    type:Types
+    puntuacion:number
+    descripcion:string
+
+}
+
+export const getEstrenos = ():EstrenosAnime[] => [
+    {
+        image:"../3815.jpg",
+        name:"5-toubun no Hanayome Movie",
+        type: Types.Pelicula,
+        puntuacion: 4.5,
+        descripcion:"Fuutarou Uesugi es un estudiante de segundo año de preparatoria/instituto cuya familia siempre ha sido muy pobre. Un día recibe una suculenta oferta de trabajo como tutor a medio tiempo... ¡pero sus estudiantes resultan ser unas chicas de su propia clase! Para complicar más las cosas, son quintillizas... Las cinco hermanas son todas muy atractivas, pero no es lo único que tienen en común: todas odian estudiar y sus calificaciones siempre están al límite de la catástrofe. Tendrá que conseguir que las cinco estudien, pero primero tendrá que estudiar él cómo ganarse su confianza."
+    }, {
+        image:"../3815.jpg",
+        name:"5-toubun no Hanayome Movie",
+        type: Types.Pelicula,
+        puntuacion: 4.5,
+        descripcion:"Fuutarou Uesugi es un estudiante de segundo año de preparatoria/instituto cuya familia siempre ha sido muy pobre. Un día recibe una suculenta oferta de trabajo como tutor a medio tiempo... ¡pero sus estudiantes resultan ser unas chicas de su propia clase! Para complicar más las cosas, son quintillizas... Las cinco hermanas son todas muy atractivas, pero no es lo único que tienen en común: todas odian estudiar y sus calificaciones siempre están al límite de la catástrofe. Tendrá que conseguir que las cinco estudien, pero primero tendrá que estudiar él cómo ganarse su confianza."
+    }, {
+        image:"../3815.jpg",
+        name:"5-toubun no Hanayome Movie",
+        type: Types.Pelicula,
+        puntuacion: 4.5,
+        descripcion:"Fuutarou Uesugi es un estudiante de segundo año de preparatoria/instituto cuya familia siempre ha sido muy pobre. Un día recibe una suculenta oferta de trabajo como tutor a medio tiempo... ¡pero sus estudiantes resultan ser unas chicas de su propia clase! Para complicar más las cosas, son quintillizas... Las cinco hermanas son todas muy atractivas, pero no es lo único que tienen en común: todas odian estudiar y sus calificaciones siempre están al límite de la catástrofe. Tendrá que conseguir que las cinco estudien, pero primero tendrá que estudiar él cómo ganarse su confianza."
+    }, {
+        image:"../3815.jpg",
+        name:"5-toubun no Hanayome Movie",
+        type: Types.Pelicula,
+        puntuacion: 4.5,
+        descripcion:"Fuutarou Uesugi es un estudiante de segundo año de preparatoria/instituto cuya familia siempre ha sido muy pobre. Un día recibe una suculenta oferta de trabajo como tutor a medio tiempo... ¡pero sus estudiantes resultan ser unas chicas de su propia clase! Para complicar más las cosas, son quintillizas... Las cinco hermanas son todas muy atractivas, pero no es lo único que tienen en común: todas odian estudiar y sus calificaciones siempre están al límite de la catástrofe. Tendrá que conseguir que las cinco estudien, pero primero tendrá que estudiar él cómo ganarse su confianza."
+    }, {
+        image:"../3815.jpg",
+        name:"5-toubun no Hanayome Movie",
+        type: Types.Pelicula,
+        puntuacion: 4.5,
+        descripcion:"Fuutarou Uesugi es un estudiante de segundo año de preparatoria/instituto cuya familia siempre ha sido muy pobre. Un día recibe una suculenta oferta de trabajo como tutor a medio tiempo... ¡pero sus estudiantes resultan ser unas chicas de su propia clase! Para complicar más las cosas, son quintillizas... Las cinco hermanas son todas muy atractivas, pero no es lo único que tienen en común: todas odian estudiar y sus calificaciones siempre están al límite de la catástrofe. Tendrá que conseguir que las cinco estudien, pero primero tendrá que estudiar él cómo ganarse su confianza."
+    }, {
+        image:"../3815.jpg",
+        name:"5-toubun no Hanayome Movie",
+        type: Types.Pelicula,
+        puntuacion: 4.5,
+        descripcion:"Fuutarou Uesugi es un estudiante de segundo año de preparatoria/instituto cuya familia siempre ha sido muy pobre. Un día recibe una suculenta oferta de trabajo como tutor a medio tiempo... ¡pero sus estudiantes resultan ser unas chicas de su propia clase! Para complicar más las cosas, son quintillizas... Las cinco hermanas son todas muy atractivas, pero no es lo único que tienen en común: todas odian estudiar y sus calificaciones siempre están al límite de la catástrofe. Tendrá que conseguir que las cinco estudien, pero primero tendrá que estudiar él cómo ganarse su confianza."
+    }, 
+]
+
 export const getEmision = ():Emision[] => {
 
     return [

@@ -19,7 +19,6 @@ const UltimosCapitulos = () => {
     <BloqueCapitulos>
       { (capitulos.isReady) ? 
       capitulos.capitulos.map((data) => {
-        console.log(data)
         return <ItemNewCap key={ data.name+data.capitulo+data.id } 
                                   name={ data.name } 
                                   image={ data.image } 
